@@ -1,0 +1,2 @@
+This folder contains commands that were previously debug commands, but they are more of a demo than useful commands. Instead of deleting them I moved them here as an example of some ideas I had when making this bot.
+There were more, but I just deleted them, this code release is intentionally a stripped down version of the bot.

@@ -1,0 +1,21 @@
+{
+    "database": {
+        "type": "mysql",
+        "user": "root",
+        "password": "securepassword",
+        "host": "db",
+        "database": "example"
+    },
+    "database": {
+        "type": "sqlite",
+        "file": "./sqlite.db",
+    },
+    "prefix": "be!",
+    "owners": ["user_ids"],
+    "superUsers": ["user_ids, has access to eval"],
+    "ownerOnly": false,
+    "pasteHost": "https://pastebin.com/api/api_post.php",
+    "pasteToken": "pastebin token (set as null if not used)",
+    "token": "bottoken",
+    "unb": "unbtoken"
+}
