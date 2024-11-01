@@ -1,4 +1,13 @@
 {
+    "emoji": {
+        "xmark": "<:xmark:729670886486966372>",
+        "check": "<:check:729670886499549244>",
+        "online": "<:online:725741546581786685>",
+        "idle": "<:idle:725741546137321513>",
+        "dnd": "<:dnd:725741545965355109>",
+        "offline": "<:offline:725741546674192444>",
+        "loading": "<a:loading:729671381368963113>",
+    },
     "database": {
         "type": "mysql",
         "user": "root",

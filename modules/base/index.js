@@ -33,14 +33,7 @@ function register(client, commands, apiEndpoints){
         return userPreference[0].value;
     }
     client.$.localec = ctx=>client.$.locale(ctx.msg.author.id, (ctx.msg.guild||{}).id);
-    client.$.emoji = {};
-    client.$.emoji.xmark = "<:xmark:729670886486966372>";
-    client.$.emoji.check = "<:check:729670886499549244>";
-    client.$.emoji.online = "<:online:725741546581786685>";
-    client.$.emoji.idle = "<:idle:725741546137321513>";
-    client.$.emoji.dnd = "<:dnd:725741545965355109>";
-    client.$.emoji.offline = "<:offline:725741546674192444>";
-    client.$.emoji.loading = "<a:loading:729671381368963113>";
+    client.$.emoji = client._config.emoji;
     for(var f of fs.readdirSync(__dirname+"/commands")){
         console.log(f,__dirname+"/commands/"+f);
         commands.push(require(__dirname+"/commands/"+f))
